@@ -21,10 +21,15 @@ public class AppConfig {
 	@Bean
 	DataSource dataSource() {
 		DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
+		System.out.println("Aqui parte la conexion");
 		driverManagerDataSource.setUrl("url");
+		System.out.println("traje la URL");
 		driverManagerDataSource.setUsername("dbuser");
+		System.out.println("traje user");
 		driverManagerDataSource.setPassword("dbpassword");
+		System.out.println("Traje password");
 		driverManagerDataSource.setDriverClassName(environment.getProperty("driver"));
+		System.out.println("traje driver");
 		return driverManagerDataSource;
 		
 	}
