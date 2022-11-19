@@ -16,6 +16,7 @@ public class Usuario {
 	private int id;
 	private String nombre;
 	private String apellido;
+	private String direccion;
 	private String clave;
 	private int rut;
 	private String dv;
