@@ -1,6 +1,7 @@
 package cl.infoclub.fsj.modelo;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,6 +19,8 @@ import lombok.ToString;
 @ToString
 public class Usuario {
 	
+	
+	@Id
 	private int id;
 	private String nombre;
 	private String apellido;
