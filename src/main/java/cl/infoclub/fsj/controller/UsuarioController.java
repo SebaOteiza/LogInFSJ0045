@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import cl.infoclub.fsj.daoimpl.UsuarioServiceImpl;
 import cl.infoclub.fsj.modelo.Usuario;
+import cl.infoclub.fsj.service.impl.UsuarioServiceImpl;
 import cl.infoclub.fsj.vo.UsuarioVO;
 
 @Controller

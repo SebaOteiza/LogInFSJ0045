@@ -1,4 +1,4 @@
-package cl.infoclub.fsj.daoimpl;
+package cl.infoclub.fsj.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import cl.infoclub.fsj.LogInFsj0045Application;
-import cl.infoclub.fsj.dao.IUsuarioService;
 import cl.infoclub.fsj.dao.UsuarioRepo;
 import cl.infoclub.fsj.modelo.Usuario;
+import cl.infoclub.fsj.service.IUsuarioService;
 import cl.infoclub.fsj.vo.UsuarioVO;
 
 public class UsuarioServiceImpl implements IUsuarioService {

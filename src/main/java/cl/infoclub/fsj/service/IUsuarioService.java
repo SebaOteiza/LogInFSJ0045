@@ -1,4 +1,4 @@
-package cl.infoclub.fsj.dao;
+package cl.infoclub.fsj.service;
 
 import cl.infoclub.fsj.modelo.Usuario;
 import cl.infoclub.fsj.vo.UsuarioVO;
