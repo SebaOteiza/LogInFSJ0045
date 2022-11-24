@@ -22,11 +22,11 @@ public class AppConfig {
 	DataSource dataSource() {
 		DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
 		System.out.println("Aqui parte la conexion");
-		driverManagerDataSource.setUrl("url");
+		driverManagerDataSource.setUrl(environment.getProperty("url"));
 		System.out.println("traje la URL");
-		driverManagerDataSource.setUsername("dbuser");
+		driverManagerDataSource.setUsername(environment.getProperty("dbuser"));
 		System.out.println("traje user");
-		driverManagerDataSource.setPassword("dbpassword");
+		driverManagerDataSource.setPassword(environment.getProperty("dbpassword"));
 		System.out.println("Traje password");
 		driverManagerDataSource.setDriverClassName(environment.getProperty("driver"));
 		System.out.println("traje driver");

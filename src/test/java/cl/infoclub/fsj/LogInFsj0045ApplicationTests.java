@@ -6,8 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class LogInFsj0045ApplicationTests {
 
+	/*
 	@Test
 	void contextLoads() {
 	}
+	*/
 
 }
